@@ -19,7 +19,7 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x ./gradlew
 
-    - run: yarn releaseApk
+    - run:  cd android && yarn releaseApk
       working-directory: android
       name: Build Android apk (debug)
 
