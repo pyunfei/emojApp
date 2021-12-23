@@ -2,7 +2,7 @@ name: merge or pull Master
 
 on:
   push:
-    branches: [f-20211223-build-android]
+    branches: [master]
   pull_request:
     branches: [master]
 
